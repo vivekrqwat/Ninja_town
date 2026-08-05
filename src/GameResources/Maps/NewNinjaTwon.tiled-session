@@ -1,0 +1,69 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "newTown.tmj",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "": {
+            "scaleInEditor": 1.5
+        },
+        "#Desert": {
+            "scaleInDock": 1
+        },
+        ":/automap-tiles.tsx": {
+            "scaleInDock": 1
+        },
+        "newTown.tmj": {
+            "scale": 0.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 755,
+                "y": 527
+            }
+        },
+        "newTown.tmj#Desert": {
+            "scaleInDock": 1.5
+        },
+        "newTown.tmj#Element": {
+            "scaleInDock": 3
+        },
+        "newTown.tmj#TilesetFloor": {
+            "scaleInDock": 3
+        },
+        "newTown.tmj#house": {
+            "scaleInDock": 1
+        },
+        "newTown.tmj#nature": {
+            "scaleInDock": 2
+        },
+        "newTown.tmj#ninjatown01": {
+            "scaleInDock": 2
+        },
+        "newTown.tmj#tilefloor": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "C:/Users/HP/Desktop/vivek_work/GAMES/ninjaTown/Frintend/src/GameResources/Maps/tileset",
+    "map.height": 100,
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 100,
+    "openFiles": [
+        "newTown.tmj"
+    ],
+    "project": "NewNinjaTwon.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "newTown.tmj"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

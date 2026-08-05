@@ -1,0 +1,90 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "newTown.tmj",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "": {
+            "scaleInDock": 1
+        },
+        ":/automap-tiles.tsx": {
+            "scaleInDock": 1
+        },
+        "newTown.json": {
+            "scale": 0.41325,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1067.1506352087113,
+                "y": 799.7580157289776
+            }
+        },
+        "newTown.json#Desert": {
+            "scaleInDock": 1
+        },
+        "newTown.json#TilesetFloor": {
+            "scaleInDock": 1
+        },
+        "newTown.json#house": {
+            "scaleInDock": 1
+        },
+        "newTown.json#nature": {
+            "scaleInDock": 1
+        },
+        "newTown.json#ninjatown01": {
+            "scaleInDock": 1
+        },
+        "newTown.json#tilefloor": {
+            "scaleInDock": 1
+        },
+        "newTown.tmj": {
+            "scale": 0.7068,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 737.1250707413697,
+                "y": 109.64912280701753
+            }
+        },
+        "newTown.tmj#Desert": {
+            "scaleInDock": 1.5
+        },
+        "newTown.tmj#TilesetFloor": {
+            "scaleInDock": 1
+        },
+        "newTown.tmj#house": {
+            "scaleInDock": 1.5
+        },
+        "newTown.tmj#nature": {
+            "scaleInDock": 1.5
+        },
+        "newTown.tmj#ninjatown01": {
+            "scaleInDock": 1.5
+        },
+        "newTown.tmj#tilefloor": {
+            "scaleInDock": 2
+        }
+    },
+    "last.imagePath": "C:/Users/HP/Desktop/vivek_work/GAMES/ninjaTown/Frintend/src/GameResources/Maps/tileset",
+    "map.height": 62,
+    "map.lastUsedFormat": "json",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 62,
+    "openFiles": [
+        "newTown.json",
+        "newTown.tmj"
+    ],
+    "project": "ninjatown.tiled-project",
+    "recentFiles": [
+        "newTown.json",
+        "newTown.tmj"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

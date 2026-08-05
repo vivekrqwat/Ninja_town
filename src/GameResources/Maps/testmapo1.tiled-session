@@ -1,0 +1,38 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "testo1.tmj",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "": {
+            "scaleInDock": 1.5
+        },
+        "testo1.tmj": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 572.6666666666665,
+                "y": 559.3333333333333
+            }
+        }
+    },
+    "last.imagePath": "C:/Users/HP/Desktop/vivek_work/GAMES/ninjaTown/Frintend/src/GameResources/Maps/tileset",
+    "map.height": 60,
+    "map.lastUsedFormat": "json",
+    "map.width": 60,
+    "openFiles": [
+        "testo1.tmj"
+    ],
+    "project": "testmapo1.tiled-project",
+    "recentFiles": [
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 32,
+        "width": 32
+    }
+}
