@@ -4,7 +4,7 @@
 
 ### A Fast-Paced 2D Arcade Evasion Game 🎮
 
-![Ninja Town Banner](./public/banner.png)
+![Ninja Town Banner](./public/ninja.png)
 
 **Master your reflexes • Escape the enemies • Collect the coins • Beat your high score**
 
