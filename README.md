@@ -17,7 +17,7 @@
 
 ---
 
-## 🎮 Game Overview
+## 🎮 Game Overview :->
 
 You are a **stealthy ninja** trapped in a hostile town where enemies are relentlessly hunting you down. Your mission is straightforward but challenging:
 
