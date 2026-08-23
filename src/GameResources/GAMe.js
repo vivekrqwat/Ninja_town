@@ -21,7 +21,7 @@ import { StartScene } from './Scenes/StartScene';
         physics: {
             default: 'arcade',
             arcade: {
-            debug:true,
+           
           
                
             }
