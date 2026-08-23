@@ -9,8 +9,7 @@ export class StartScene extends Scene {
         const X = this.scale.width / 2;
         const Y = this.scale.height / 2;
 
-        // 1. Decorative Atmosphere (Wind Particles / Falling Leaves Effect)
-        // If you don't have a leaf/particle image, use any small square or dot asset
+     
         const particles = this.add.particles(0, 0, 'shuriken', {
             x: { min: 0, max: this.scale.width },
             y: 0,
@@ -23,7 +22,6 @@ export class StartScene extends Scene {
             alpha: { start: 0.6, end: 0 }
         });
 
-        // 2. Game Title Styling
         const titleText = this.add.text(X, Y - 100, 'NINJA TOWN', {
             fontSize: '64px',
             fontFamily: 'Impact, Arial Black, sans-serif',
@@ -41,12 +39,11 @@ export class StartScene extends Scene {
             letterSpacing: 4
         }).setOrigin(0.5);
 
-        // 3. Decorative Floating Ninja Character
+   
         const menuNinja = this.add.image(X, Y + 60, 'ninja')
             .setScale(4)
             .setAlpha(0.9);
 
-        // Make the character hover up and down smoothly
         this.tweens.add({
             targets: menuNinja,
             y: Y + 45,
@@ -56,7 +53,6 @@ export class StartScene extends Scene {
             ease: 'Sine.easeInOut'
         });
 
-        // 4. Dynamic Input Prompts (PC vs Mobile)
         const isMobile = this.scale.width <= 880;
         const promptString = isMobile ? '💥 TAP SCREEN TO ENTER 💥' : '⚔️ PRESS ENTER TO START ⚔️';
 
@@ -67,7 +63,7 @@ export class StartScene extends Scene {
             fontStyle: 'bold'
         }).setOrigin(0.5);
 
-        // Make the start prompt flash / blink
+        
         this.tweens.add({
             targets: startPrompt,
             alpha: 0.3,
@@ -77,20 +73,18 @@ export class StartScene extends Scene {
             ease: 'Quad.easeInOut'
         });
 
-        // 5. Wire Up Interactions
-        // Keyboard Listener (PC)
+       
         this.input.keyboard.once('keydown-ENTER', () => {
             this.transitionToGame();
         });
 
-        // Screen Tap Listener (Mobile & Mouse Clicks)
+      
         this.input.once('pointerdown', () => {
             this.transitionToGame();
         });
     }
 
     transitionToGame() {
-        // Simple cinematic camera fade before changing scenes
         this.cameras.main.fade(500, 0, 0, 0);
         this.cameras.main.once('camerafadeoutcomplete', () => {
             this.scene.start("SinglePlayerGameField");

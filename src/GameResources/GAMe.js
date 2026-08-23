@@ -12,6 +12,8 @@ import { StartScene } from './Scenes/StartScene';
         scale: {
     mode: Phaser.Scale.RESIZE,
     autoCenter: Phaser.Scale.CENTER_BOTH
+  }, input: {
+    activePointers: 3 // 1 default + however many extra simultaneous touches you need
   },
         scene: [Prelaod,StartScene,SinglePlayerGameField,Restart,GameField],
         

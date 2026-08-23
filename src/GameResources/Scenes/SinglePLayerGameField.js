@@ -152,11 +152,7 @@ export class SinglePlayerGameField extends Scene {
       });
     });
 
-    // this.ChasingEnenmy = new ChasingEnemy(
-    //   this,
-    //   this.scale.width + 100,
-    //   this.scale.height,
-    // );
+
     this.setProperty = false;
     this.hearCollection = new Array();
     for (let i = 0; i < 3; i++) {
@@ -180,9 +176,9 @@ export class SinglePlayerGameField extends Scene {
     this.cameras.main.setBounds(0, 0, mapWidth1, mapHeight1);
     this.physics.world.setBounds(0, 0, mapWidth1, mapHeight1);
 
-    // Make the camera actually follow the player
+ 
     this.cameras.main.startFollow(this.player, true, 0.08, 0.08);
-    //setting up layers
+  
     this.AllLayers.forEach((i) => {
       this.physics.add.collider(this.player, i);
       this.physics.add.collider(this.ChasingEnemyGroup, i);
