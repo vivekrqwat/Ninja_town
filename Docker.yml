@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  ninjatown:
+    image: vivekrawat007/ninjatown:01
+    container_name: ninjatown
+    ports:
+      - "3000:3000"
+    restart: always
