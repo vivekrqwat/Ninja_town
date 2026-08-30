@@ -27,8 +27,8 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/Ninja_Town:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/Ninja_Town:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/ninja_town:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/ninja_town:${{ github.sha }}
         
 
   
