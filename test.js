@@ -13,4 +13,4 @@ if(dir=="up"){
     }else if(dir=="right"){ 
         this.setVelocityX(speed)
         this.anims.play(name+"-walk-right",true)
-    }
+    }efmel,f
