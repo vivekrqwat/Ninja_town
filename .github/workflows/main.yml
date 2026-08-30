@@ -1,0 +1,12 @@
+name: helloworld
+
+on:
+  workflow_dispatch:
+  
+
+  
+jobs:
+    say_hello:
+        runs-on: ubuntu-24.04
+        steps:
+            - run: echo "HEloo world"
