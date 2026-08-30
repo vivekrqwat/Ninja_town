@@ -10,3 +10,13 @@ jobs:
         runs-on: ubuntu-24.04
         steps:
             - run: echo "HEloo world"
+    job2:
+        runs-on: ubuntu-24.04
+        steps:
+          - run: echo "job2 running"
+    job3:
+        runs-on: ubuntu-24.04
+        needs: 
+            - job2
+            - say_hello
+          
