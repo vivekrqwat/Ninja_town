@@ -19,4 +19,6 @@ jobs:
         needs: 
             - job2
             - say_hello
+        steps:
+            - run: echo "job3"
           
